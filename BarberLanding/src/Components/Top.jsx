@@ -21,7 +21,7 @@ export default function Top (){
                     <img src="Icon.png" alt="Ícone da barbearia" />
                 </div>
                 <div className='BgImgStart__Header__btn'>
-                    <button>Agender Horário</button>
+                    <button>Agendar Horário</button>
                 </div>
             </header>
             <section className='BgImgStart__CapaInicial'>
