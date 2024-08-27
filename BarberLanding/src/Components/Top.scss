@@ -1,0 +1,90 @@
+@import '../main.scss';
+
+.BgImgStart{
+    background-image: url(../../public/ImgCapa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    
+    .BgImgStart__Header{
+        background-image: linear-gradient(to bottom, black, black , transparent);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+        justify-content: space-around;
+
+        .BgImgStart__Header__Icons{
+            color: white;
+            display: flex;
+            font-size: 30px;
+            gap: 10px;
+        }
+
+        .BgImgStart__Header__Logo{
+            width: 100px;
+        }
+
+        .BgImgStart__Header__btn button{
+            background-color: transparent;
+            border: 1px solid white;
+            padding: 10px 20px;
+            color: white;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: $Color-Red1;
+                border:  1px solid $Color-Black;
+                transform: translate(-2px, -2px);
+                transition: transform 1s;
+            }
+        }
+    }
+
+    .BgImgStart__CapaInicial{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .BgImgStart__CapaInicial__Texts{
+            width: 90%;
+            max-width: 1000px;
+            padding: 10px;
+            text-align: center;
+            .BgImgStart__CapaInicial__Texts__title{
+                font-size: 40px;
+                color: white;
+                margin-bottom: 10px;
+
+                @media (max-width : 680px){
+                    font-size: 30px;
+                }
+            }
+            .BgImgStart__CapaInicial__Texts__Subtitle{
+                font-size: 20px;
+                color: rgb(182, 182, 182);
+                margin-bottom: 20px;
+            }
+            .BgImgStart__CapaInicial__Texts__btn{
+                background-color: $Color-Red1;
+                color: white;
+                font-weight: bold;
+                padding: 10px 20px;
+                width: 80%;
+                max-width: 200px;
+                font-size: 15px;
+                border-radius: 10px;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
