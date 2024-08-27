@@ -16,18 +16,39 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 10px;
         justify-content: space-around;
+        padding: 10px;
 
         .BgImgStart__Header__Icons{
             color: white;
             display: flex;
             font-size: 30px;
             gap: 10px;
+
+            i{
+                &:hover{
+                    color: $Color-Red2;
+                    cursor: pointer;
+                    transform: translate(-2px, -2px);
+                    transition: transform 1s;
+                } 
+            }
+
+            @media (max-width : 680px){
+                font-size: 20px;
+            }
         }
 
-        .BgImgStart__Header__Logo{
-            width: 100px;
+        .BgImgStart__Header__Logo {
+            img{
+                width: 100px;
+            }
+
+            @media (max-width : 680px){
+                img{
+                    width: 50px;
+                }
+            }
         }
 
         .BgImgStart__Header__btn button{
@@ -74,8 +95,8 @@
                 margin-bottom: 20px;
             }
             .BgImgStart__CapaInicial__Texts__btn{
-                background-color: $Color-Red1;
-                color: white;
+                background-color: $Color-Gray;
+                color: rgb(0, 0, 0);
                 font-weight: bold;
                 padding: 10px 20px;
                 width: 80%;
@@ -83,7 +104,6 @@
                 font-size: 15px;
                 border-radius: 10px;
                 border: none;
-                cursor: pointer;
             }
         }
     }

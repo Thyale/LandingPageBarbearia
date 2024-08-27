@@ -2,12 +2,12 @@ import '../Components/Top.scss'
 
 export default function Top (){
 
-    var data = new Date();
-    var hours = data.getHours();
+    var data = new Date()
+    var Atual = data.getHours()
+    var funcionamento = "Loja fechada"
 
-    if(hours >= 9 && hours < 19){
-        window.document.querySelector("button.BgImgStart__CapaInicial__Texts__btn").style.backgroundColor = 'green';
-        window.document.querySelector("button.BgImgStart__CapaInicial__Texts__btn").innerHTML = 'Loja Aberta'
+    if(Atual >= 9 && Atual <=19){
+        funcionamento = "Loja aberta"
     }
 
     return(
@@ -28,7 +28,7 @@ export default function Top (){
                 <div className='BgImgStart__CapaInicial__Texts'>
                     <h1 className='BgImgStart__CapaInicial__Texts__title'>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE</h1>
                     <p className='BgImgStart__CapaInicial__Texts__Subtitle'>Horário de funcionamento: 09:00 ás 19:00</p>
-                    <button className='BgImgStart__CapaInicial__Texts__btn'>Loja Fechada</button>
+                    <button className='BgImgStart__CapaInicial__Texts__btn'>{funcionamento}</button>
                 </div>
             </section>
         </div>
