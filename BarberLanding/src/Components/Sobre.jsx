@@ -8,7 +8,7 @@ export default function Sobre (){
         ScrollReveal().reveal('.Sobre', {
             delay: 200, // opcional, para adicionar um atraso
             distance: '500px', // opcional, para definir a distância do movimento
-            origin: 'bottom', // Define de onde o movimento deve iniciar (top, bottom, left, right)
+            origin: 'left', // Define de onde o movimento deve iniciar (top, bottom, left, right)
             reset: true // opcional, para permitir que o efeito se repita ao rolar para cima e para baixo
         });
     }, []);
