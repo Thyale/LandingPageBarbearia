@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import '../Components/Sobre.scss';
+import '../Main/Sobre.scss';
 import ScrollReveal from 'scrollreveal';
 
 export default function Sobre (){

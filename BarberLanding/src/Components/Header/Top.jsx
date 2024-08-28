@@ -1,14 +1,6 @@
-import '../Components/Top.scss'
+import '../Header/Top.scss'
 
 export default function Top (){
-
-    var data = new Date()
-    var Atual = data.getHours()
-    var funcionamento = "Loja fechada"
-
-    if(Atual >= 9 && Atual <=19){
-        funcionamento = "Loja aberta"
-    }
 
     return(
         <div className='BgImgStart'>
@@ -28,7 +20,7 @@ export default function Top (){
                 <div className='BgImgStart__CapaInicial__Texts'>
                     <h1 className='BgImgStart__CapaInicial__Texts__title'>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE</h1>
                     <p className='BgImgStart__CapaInicial__Texts__Subtitle'>Horário de funcionamento: 09:00 ás 19:00</p>
-                    <button className='BgImgStart__CapaInicial__Texts__btn'>{funcionamento}</button>
+                    <button className='BgImgStart__CapaInicial__Texts__btn'>Marque o Horário do WhatsApp</button>
                 </div>
             </section>
         </div>
