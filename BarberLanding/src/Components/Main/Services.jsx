@@ -9,7 +9,7 @@ export default function Services (){
             delay: 200, // opcional, para adicionar um atraso
             distance: '500px', // opcional, para definir a distância do movimento
             origin: 'left', // Define de onde o movimento deve iniciar (top, bottom, left, right)
-            reset: true // opcional, para permitir que o efeito se repita ao rolar para cima e para baixo
+            reset: false // opcional, para permitir que o efeito se repita ao rolar para cima e para baixo
         });
     }, []);
 

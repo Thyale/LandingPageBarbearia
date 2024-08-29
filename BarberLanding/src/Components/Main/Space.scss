@@ -1,0 +1,20 @@
+@import url(../../main.scss);
+
+.Map{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 10px;
+
+    .Map__Title{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+}
