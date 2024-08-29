@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/LandingPageBarbearia/',
   plugins: [react()],
+  build: {
+    publicDir: 'public',
+    assetsInclude: ['public/**/*'],
+  },
 })
