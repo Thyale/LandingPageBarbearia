@@ -2,12 +2,10 @@
 
 .BgImgStart{
     background-image: url(../../../public/ImgCapa.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
     height: 100vh;
     background-size: cover;
-
+    background-position: center center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     
