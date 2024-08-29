@@ -16,5 +16,49 @@
         margin: auto;
         width: 100%;
         max-width: 1000px;
+        margin-bottom: 20px;
+    }
+
+    .Services__DivServices{
+        width: 90%;
+        max-width: 1300px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .Services__DivServices__Service{
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.375);
+            border-radius: 20px;
+            max-width: 400px;
+
+            img{
+                width: 100%;
+            }   
+
+            .Services__DivServices__Service__DivText{
+                padding: 20px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+
+                .Services__DivServices__Service__DivText__title{
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+                .Services__DivServices__Service__DivText__valor{
+                    background-color: #F20530;
+                    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.375);
+                    color: white;
+                    padding: 5px 10px;
+                    font-size: 17px;
+                    border-radius: 10px;
+                }
+            }
+        }
     }
 }
