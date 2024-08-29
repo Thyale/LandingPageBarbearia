@@ -29,7 +29,7 @@ Para rodar este projeto localmente, siga os passos abaixo:
    ```bash
    npm start
 
-O site estará disponível em : LINK
+[Para visualizar o deploy do site clique aqui](https://thyale.github.io/LandingPageBarbearia/)
 
 ## Contribuição
 
