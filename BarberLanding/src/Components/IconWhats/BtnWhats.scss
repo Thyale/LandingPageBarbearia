@@ -5,6 +5,7 @@
     bottom: 30px;
     right: 20px;
     font-size: 40px;
+    z-index: 1;
 
     a{
         color: white;
@@ -13,7 +14,7 @@
         border-radius: 50%;
 
         &:hover{
-            background-color: rgb(2, 199, 2);
+            background-color: rgb(0, 175, 0);
         }
     }
 }

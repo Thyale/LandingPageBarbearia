@@ -7,6 +7,7 @@ import Sobre from '../src/Components/Main/Sobre'
 import BtnWhats from './Components/IconWhats/BtnWhats'
 import Services from './Components/Main/Services'
 import Space from './Components/Main/Space'
+import Footer from './Components/Footer/Footer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,5 +16,6 @@ createRoot(document.getElementById('root')).render(
     <BtnWhats/>
     <Services/>
     <Space/>
+    <Footer />
   </StrictMode>,
 )
